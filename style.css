@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:55px;
+}
+
+
+
+body {
+    border: 12px solid rgb(244, 191, 76);
+    border-radius: 30px;
+    padding: 40px;
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+    background: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX24280112.jpg');
+}
+
+#clock {
+    height:140px;
+    font-size: 60px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: white;
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 1.1em;
+    padding: 0.6em;
+  color: white;
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+
+.bigger {
+    font-weight:bold;
+    font-size: 30px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+    background-color:rgb(130, 177, 19);
+    margin-top:10px;
+}
+#clearButton {
+    float:right;
+    background-color:rgb(26, 232, 191);
+    margin-top:10px;
+}
+
+
+
